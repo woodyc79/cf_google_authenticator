@@ -98,6 +98,7 @@ class UserSettings
                 PathUtility::makeExtensionPath('Resources/Private/Templates/Backend/UserSettings.html')
             )
         );
+        return $templateView;
     }
 
     private function getTemplatePath(): string
